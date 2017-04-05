@@ -36,7 +36,7 @@
 
 	<?php
 		$footer_sections = 0;
-		$zerif_address = get_theme_mod('zerif_address','<a href="https://www.google.com/maps/place/ulitsa+„Gorski+patnik“+25,+1421+Sofia" target="_blank" rel="nofollow">25 Gorski patnik, Sofia, Bulgaria</a>');
+		$zerif_address = get_theme_mod('zerif_address','<a href="https://www.google.com/maps/place/ulitsa+„Gorski+patnik“+25,+1421+Sofia" target="_blank" title="Address">25 Gorski patnik, Sofia, Bulgaria</a>');
 		$zerif_address_icon = get_theme_mod('zerif_address_icon',get_template_directory_uri().'/images/map25-redish.png');
 		
 		$zerif_email = get_theme_mod('zerif_email','<a href="mailto:info@qualityassuranceteam.com">info@qualityassuranceteam.com</a>');
@@ -94,7 +94,7 @@
 					
 					if( !empty($zerif_address_icon) ) { 
 						echo '<div class="icon-top red-text">';
-							 echo '<img src="'.esc_url($zerif_address_icon).'" alt="" />';
+							 echo '<img src="'.esc_url($zerif_address_icon).'" alt="Company address" />';
 						echo '</div>';
 					}
 					
@@ -115,7 +115,7 @@
 				
 					if( !empty($zerif_email_icon) ) {
 						echo '<div class="icon-top green-text">';
-							echo '<img src="'.esc_url($zerif_email_icon).'" alt="" />';
+							echo '<img src="'.esc_url($zerif_email_icon).'" alt="Company email" />';
 						echo '</div>';
 					}
 					if( !empty($zerif_email) ) {
@@ -134,7 +134,7 @@
 				echo '<div class="'.$footer_class.' company-details">';
 					if( !empty($zerif_phone_icon) ) {
 						echo '<div class="icon-top blue-text">';
-							echo '<img src="'.esc_url($zerif_phone_icon).'" alt="" />';
+							echo '<img src="'.esc_url($zerif_phone_icon).'" alt="Company phone number" />';
 						echo '</div>';
 					}
 					if( !empty($zerif_phone) ) {
@@ -160,27 +160,27 @@
 						
 						/* facebook */
 						if( !empty($zerif_socials_facebook) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_facebook).'"><i class="fa fa-facebook"></i></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_facebook).'" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>';
 						endif;
 						/* twitter */
 						if( !empty($zerif_socials_twitter) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_twitter).'"><i class="fa fa-twitter"></i></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_twitter).'" target="_blank" title="Tweeter"><i class="fa fa-twitter"></i></a></li>';
 						endif;
 						/* linkedin */
 						if( !empty($zerif_socials_linkedin) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_linkedin).'"><i class="fa fa-linkedin"></i></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_linkedin).'" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>';
 						endif;
 						/* behance */
 						if( !empty($zerif_socials_behance) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_behance).'"><i class="fa fa-behance"></i></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_behance).'" target="_blank" title="Behance"><i class="fa fa-behance"></i></a></li>';
 						endif;
 						/* dribbble */
 						if( !empty($zerif_socials_dribbble) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_dribbble).'"><i class="fa fa-dribbble"></i></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_dribbble).'" target="_blank" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>';
 						endif;
 						/* instagram */
 						if( !empty($zerif_socials_instagram) ):
-							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_instagram).'"><i class="fa fa-instagram"></i></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_instagram).'" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>';
 						endif;
 						echo '</ul>';
 					endif;	
