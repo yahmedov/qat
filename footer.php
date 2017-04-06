@@ -42,7 +42,7 @@
 		$zerif_email = get_theme_mod('zerif_email','<a href="mailto:info@qualityassuranceteam.com">info@qualityassuranceteam.com</a>');
 		$zerif_email_icon = get_theme_mod('zerif_email_icon',get_template_directory_uri().'/images/envelope4-green.png');
 		
-		$zerif_phone = get_theme_mod('zerif_phone','<a href="tel:+359883311099">+35988 3311 0 99</a>');
+		$zerif_phone = get_theme_mod('zerif_phone','<a href="tel:+359883311099">+35988 3311 099</a>');
 		$zerif_phone_icon = get_theme_mod('zerif_phone_icon',get_template_directory_uri().'/images/telephone65-blue.png');
 
 		$zerif_socials_facebook = get_theme_mod('zerif_socials_facebook','#');
@@ -96,6 +96,8 @@
 						echo '<div class="icon-top red-text">';
 							 echo '<img src="'.esc_url($zerif_address_icon).'" alt="Company address" />';
 						echo '</div>';
+						echo '<h4>Location:</h4>';
+						echo '<br>';
 					}
 					
 					if( !empty($zerif_address) ) {
@@ -117,6 +119,8 @@
 						echo '<div class="icon-top green-text">';
 							echo '<img src="'.esc_url($zerif_email_icon).'" alt="Company email" />';
 						echo '</div>';
+						echo '<h4>Email:</h4>';
+						echo '<br>';
 					}
 					if( !empty($zerif_email) ) {
 						echo '<div class="zerif-footer-email">';	
@@ -136,6 +140,8 @@
 						echo '<div class="icon-top blue-text">';
 							echo '<img src="'.esc_url($zerif_phone_icon).'" alt="Company phone number" />';
 						echo '</div>';
+						echo '<h4>Phone:</h4>';
+						echo '<br>';
 					}
 					if( !empty($zerif_phone) ) {
 						echo '<div class="zerif-footer-phone">';
