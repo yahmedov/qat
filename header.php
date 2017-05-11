@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="QA team,Quality Assurance Team,independent tester,QA Engineer,Testing Tools,Testing Techniques,Testing,Functional testing,Crossbrowser Testing">
 <meta name="description" content="Enchant your business using Quality Assurance Team as a Service. Researches show that using independent testers dramatically increases the number of issues found.">
-<meta name="author" content="Yuksel Ahmedov">
+<meta name="google-site-verification" content="GmjPPHtU9hnrpFXaNKmkvCe-d_rDcFdjY6pVc1Gr41w" />
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <!--[if lt IE 9]>
