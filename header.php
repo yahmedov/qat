@@ -61,7 +61,7 @@ endif;
 					</div><!--/.logo-description-->
 				</div><!--/.logo-text-->
 			<?php else: ?>
-				<a class="logo-image" href="<?php echo esc_url( get_site_url() ); ?>" title="<?php bloginfo( 'title' ); ?>">
+				<a class="logo-image" href="https://www.qualityassuranceteam.com/" title="<?php bloginfo( 'title' ); ?>"><!--/.hardcoded URL-->
 				</a><!--/.a-->
 			<?php endif; ?>
 			<?php if( has_nav_menu( 'primary' ) ): ?>
